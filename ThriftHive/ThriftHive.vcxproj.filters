@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\gen-cpp">
+      <UniqueIdentifier>{9729b7bf-8ef7-4378-8899-15f2f4dedef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\fb303">
+      <UniqueIdentifier>{5ad70181-7c8a-4b79-8b12-668aaf41210c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fb303\FacebookService.cpp">
+      <Filter>头文件\fb303</Filter>
+    </ClCompile>
+    <ClCompile Include="fb303\fb303_constants.cpp">
+      <Filter>头文件\fb303</Filter>
+    </ClCompile>
+    <ClCompile Include="fb303\fb303_types.cpp">
+      <Filter>头文件\fb303</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\Hive_constants.cpp">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\Hive_types.cpp">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="gen-cpp\ThriftHiveMetastore.cpp">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HiveClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fb303\FacebookService.h">
+      <Filter>头文件\fb303</Filter>
+    </ClInclude>
+    <ClInclude Include="fb303\fb303_constants.h">
+      <Filter>头文件\fb303</Filter>
+    </ClInclude>
+    <ClInclude Include="fb303\fb303_types.h">
+      <Filter>头文件\fb303</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\Hive_constants.h">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\Hive_types.h">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="gen-cpp\ThriftHiveMetastore.h">
+      <Filter>头文件\gen-cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="HiveClient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
